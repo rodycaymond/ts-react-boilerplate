@@ -1,0 +1,37 @@
+{
+  "name": "which-disc",
+  "version": "1.0.0",
+  "description": "disc golf app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --port 3000",
+    "build": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodycaymond/which-disc.git"
+  },
+  "author": "Cody Raymond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodycaymond/which-disc/issues"
+  },
+  "homepage": "https://github.com/rodycaymond/which-disc#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.40",
+    "@types/react-dom": "^17.0.13",
+    "@types/react-router-dom": "^5.3.3",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
