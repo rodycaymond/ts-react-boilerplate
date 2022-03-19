@@ -1,8 +1,8 @@
 {
-  "name": "which-disc",
+  "name": "ts-react",
   "version": "1.0.0",
-  "description": "disc golf app",
-  "main": "index.js",
+  "description": "ts-react-boilerplate",
+  "main": "index.tsx",
   "scripts": {
     "start": "webpack serve --port 3000",
     "build": "NODE_ENV=production webpack",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rodycaymond/which-disc.git"
+    "url": "git+https://github.com/rodycaymond/ts-react-boilerplate.git"
   },
   "author": "Cody Raymond",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rodycaymond/which-disc/issues"
+    "url": "https://github.com/rodycaymond/ts-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/rodycaymond/which-disc#readme",
+  "homepage": "https://github.com/rodycaymond/ts-react-boilerplate#readme",
   "dependencies": {
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
